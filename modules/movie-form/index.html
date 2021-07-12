@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie form practical</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Movie festival</h1>
+    </header>
+    <div class="main">
+        <p class="formTitle">Please fill in the form</p>
+        <p class="formTitle">Movie</p>
+        <fieldset>
+            <form action="#">
+                <label for="title"><p>Title</p></label>
+                    <input type="text" id="title" placeholder="Title" required>
+                <label for="length"><p>Length (min)</p></label>
+                    <input type="text" id="length" placeholder="Length in min">
+                <select name="" id="genre">
+                    <option value="">-</option>
+                    <option value="Action">Action</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Thriller">Thriller</option>
+                </select>
+                <input type="button" name="" id="btt-movie" value="Create movie">
+            </form>
+            <ul class="movieList"></ul>
+            <p class="error-movie"></p>
+        </fieldset>
+        <p class="formTitle">Program</p>
+        <fieldset>
+            <form action="">
+                <label for="date"><p>Date</p></label>
+                <input type="date" name="" id="date" value="">
+                <input type="button" name="" id="btt-program" value="Create program">
+                <ul class="programList"></ul>
+                <p class="error-program"></p>
+                <hr>
+                <label for="movieSelect"><p class="formTitle">Movie</p></label>
+                <select name="" id="movieSelect">
+                    <option value="">-</option>
+                </select>
+                <label for="programSelect"><p class="formTitle">Program</p></label>
+                <select name="" id="programSelect">
+                    <option value="">-</option>
+                </select>
+                <input type="button" value="Add movie to program" id="add-movie-program">
+            </form>
+        </fieldset>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
