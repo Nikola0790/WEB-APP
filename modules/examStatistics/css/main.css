@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.head {
+    background-image: url("/modules/examStatistics/exam_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+}
+h1 {
+    padding-top: 50px;
+}
+.head p {
+    margin-top: 30px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.box {
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    
+}
+.pass {
+    background-color: #32b8b4;
+    height: 50px;
+    text-align: left;
+    margin-top: 20px;
+}
+.fail {
+    background-color: #fc5250;
+    height: 50px;
+    text-align: left;
+    margin-top: 20px;
+}
+.pass p, .fail p {
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+/* ////////////////////////////// */
+
+.studentInfo {
+    background-color: #f7f7f7;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+}
+select {
+    height: 30px;
+    padding-left: 10px;
+}
+input {
+    height: 30px;
+    padding-left: 10px;
+}
+.button-add {
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #2eb8b4;
+}
+.examResult {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 50px auto 0 auto;
+}
+.passedResult {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+}
+.failedResult {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+}
+.failedResult h4 {
+    color: red;
+}
+.passedList {
+    margin-top: 30px;
+    line-height: 50px;
+}
+.passedList li {
+    list-style: none;
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+.passedList li:nth-child(even) { 
+    background-color: #f0efef;
+}
+.failedList {
+    margin-top: 30px;
+    line-height: 50px;
+}
+.failedList li {
+    list-style: none;
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+.failedList li:nth-child(even) { 
+    background-color: #f0efef;
+}
+
