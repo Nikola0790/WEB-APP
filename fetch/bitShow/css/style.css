@@ -1,0 +1,87 @@
+header {
+    background-color: #343a40;
+  }
+  
+  nav {
+    margin: 0 auto;
+    color: whitesmoke;
+  }
+  
+  .navbar-brand {
+    color: whitesmoke !important;
+    cursor: pointer;
+  }
+  
+  .drop-down-list, .drop-down-list-info {
+    position: absolute;
+    color: black;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .underLine {
+    border-bottom: 1px solid black;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .title_index, .title {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+  }
+  
+  .cardCenter {
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: whitesmoke;
+  }
+  
+  .footer {
+    height: 70px;
+    margin-top: 20px;
+  }
+  
+  .footerItem {
+    color: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .footer p {
+    margin: 0px;
+  }
+  
+  .toggle {
+    cursor: pointer;
+  }
+  
+  .toggle span {
+    font-size: 16px;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .summary {
+    margin-top: 30px;
+  }
+  
+  .about {
+    padding-left: 100px;
+  }
