@@ -1,28 +1,28 @@
-'use strict';
+"use strict";
 
-const url = 'http://api.tvmaze.com/shows';
-const urlForSearch = 'http://api.tvmaze.com/search/shows?q='
+export const url = "http://api.tvmaze.com/shows";
+export const urlForSearch = "http://api.tvmaze.com/search/shows?q=";
 
 // index.html
 
-const searchBox = $('.searchBox');
-const dropDownList = $('.drop-down-list');
-const cardList = $('.cardAll');
-const error = $('.error');
+export const searchBox = $(".searchBox");
+export const dropDownList = $(".drop-down-list");
+export const cardList = $(".cardAll");
+export const error = $(".error");
 
 // infoPage.html
 
-const searchInfo = $('.searchInfo');
-const infoDropDownList = $('.drop-down-list-info');
-const title =  $('.title');
-const poster = $('.poster');
-const season = $('#seasons');
-const crew = $('#crew');
-const cast = $('#cast');
-const description = $('.summary');
-const errorInfo = $('.errorInfo');
+export const searchInfo = $(".searchInfo");
+export const infoDropDownList = $(".drop-down-list-info");
+export const title = $(".title");
+export const poster = $(".poster");
+export const season = $("#seasons");
+export const crew = $("#crew");
+export const cast = $("#cast");
+export const description = $(".summary");
+export const errorInfo = $(".errorInfo");
 
 //////
 
-const div1 = $('#indexPage');
-const div2 = $('#infoPage');
+export const div1 = $("#indexPage");
+export const div2 = $("#infoPage");
