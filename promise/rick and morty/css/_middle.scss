@@ -1,0 +1,59 @@
+body {
+  background-image: url("../bg image/rick.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* body {
+  width:100%;
+  height: 100%;
+  background-image: url("/rick.jpg")!important;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+} */
+
+.navBar {
+  margin: 25px 0 100px 0;
+}
+.btn {
+  width: 100%;
+}
+.card-body {
+  background-color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+///////////// CHARACTER INFO
+
+.characterInfo {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+
+.imgCharacter {
+  img {
+    width: 100%;
+  }
+}
+
+/*.container-info {
+  display: flex;
+  .imgCharacter {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .characterInfo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 140px 0;
+    width: 50%;
+    text-align: center;
+  }
+}*/
