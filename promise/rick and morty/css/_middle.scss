@@ -1,19 +1,11 @@
 body {
-  background-image: url("../bg image/rick.jpg");
+  background-image: url("../bg image/rick.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 0;
+  padding: 0;
 }
-
-/* body {
-  width:100%;
-  height: 100%;
-  background-image: url("/rick.jpg")!important;
-  background-position: center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-
-} */
 
 .navBar {
   margin: 25px 0 100px 0;
@@ -30,8 +22,10 @@ body {
 ///////////// CHARACTER INFO
 
 .characterInfo {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: x-large;
+  background-color: rgba(8, 5, 16, 0.7);
+  text-align: center;
 }
 
 .imgCharacter {
@@ -39,21 +33,3 @@ body {
     width: 100%;
   }
 }
-
-/*.container-info {
-  display: flex;
-  .imgCharacter {
-    width: 50%;
-    img {
-      width: 100%;
-    }
-  }
-  .characterInfo {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-    padding: 140px 0;
-    width: 50%;
-    text-align: center;
-  }
-}*/
