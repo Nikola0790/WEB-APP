@@ -1,0 +1,10 @@
+.blog {
+  width: 60%;
+  background-color: #556e79;
+  color: white;
+  margin: 10px auto;
+  padding: 15px;
+}
+.blog h2 {
+  margin-bottom: 20px;
+}
