@@ -1,0 +1,19 @@
+{
+  "name": "project-npm",
+  "version": "1.0.0",
+  "description": "test npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikola",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "figlet": "^1.5.0",
+    "funny-words": "^0.1.2",
+    "one-liner-joke": "^1.2.2",
+    "popular-movie-quotes": "^1.2.4",
+    "random-words": "^1.1.1"
+  }
+}
