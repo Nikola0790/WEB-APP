@@ -1,10 +1,10 @@
 import React from "react";
 import "./header.css";
 
-function Header() {
+function Header(props) {
   return (
     <header>
-      <h1>My React Blog</h1>
+      <h1>{props.title}</h1>
     </header>
   );
 }

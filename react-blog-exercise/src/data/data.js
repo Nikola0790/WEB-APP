@@ -42,7 +42,7 @@ export const blogContent = [
   },
   {
     title: "Dinosaur",
-    text: `Dinosaurs are a diverse group of reptiles[note 1] of the clade Dinosauria. 
+    text: `Dinosaurs are a diverse group of reptiles of the clade Dinosauria. 
     They first appeared during the Triassic period, between 243 and 233.23 million years ago, 
     although the exact origin and timing of the evolution of dinosaurs is the subject of active research. 
     They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201.3 million years ago; 

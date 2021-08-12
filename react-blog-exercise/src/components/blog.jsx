@@ -1,5 +1,5 @@
 import React from "react";
-import { blogContent } from "./data/data.js";
+import { blogContent } from "../data/data";
 import "./blog.css";
 
 function BlogList() {
