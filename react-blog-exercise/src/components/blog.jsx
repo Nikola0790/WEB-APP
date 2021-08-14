@@ -1,20 +1,17 @@
 import React from "react";
-import { blogContent } from "../data/data";
+import PropTypes from "prop-types";
 import "./blog.css";
 
-function BlogList() {
+export const Blog = ({ title, text }) => {
   return (
-    <main>
-      {blogContent.map((content, index) => {
-        return (
-          <div className="blog" key={index}>
-            <h2>{content.title}</h2>
-            <p>{content.text}</p>
-          </div>
-        );
-      })}
-    </main>
+    <div className="blog">
+      <h2>{title}</h2>
+      <p>{text}</p>
+    </div>
   );
-}
+};
 
-export default BlogList;
+Blog.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
