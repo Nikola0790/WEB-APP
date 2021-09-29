@@ -5,7 +5,7 @@ import { cardAll } from "./data.js";
 export const showNewPage = (item) => {
   cardAll.html("");
   item.results.forEach((item) => {
-    let card = `<div class="col-sm-3" onclick="loadC(${item.id})">
+    let card = `<div class="col-sm-3 cursor" onclick="loadC(${item.id})">
               <img class="card-img-top" src="${item.image}" alt="Card image cap">
               <div class="card-body">
                   <h5 class="card-title">${item.name}</h5>

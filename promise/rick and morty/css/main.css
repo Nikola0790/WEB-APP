@@ -21,6 +21,10 @@ body {
   text-align: center;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .characterInfo {
   color: white;
   font-size: x-large;
